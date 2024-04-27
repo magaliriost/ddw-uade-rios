@@ -1,13 +1,5 @@
 body {
     .wrapper {
-        .logo {
-            width: 40%;
-
-            img {
-                width: 7%;
-            }
-
-        }
         .services-wrapper {
             padding: 45px 20px;
             .card-img-top {
