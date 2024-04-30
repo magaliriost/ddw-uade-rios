@@ -1,19 +1,25 @@
 body {
     .wrapper {
-        .services-wrapper {
-            padding: 45px 20px;
-            .card-img-top {
-                max-height: 190px;
+        .services-content {
+            padding: 30px 40px;
+            .services-title {
+                color: #fca312;
             }
-            .card-info-footer {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-
-                .price {
-                    font-weight: 600;
-                    font-size: 18px;
+            .services-wrapper {
+                padding: 45px 20px;
+                .card-img-top {
+                    max-height: 180px;
+                }
+                .card-info-footer {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+    
+                    .price {
+                        font-weight: 600;
+                        font-size: 18px;
+                    }
                 }
             }
         }
